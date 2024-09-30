@@ -1,8 +1,37 @@
-# React + Vite
+# Carta, Forbice, Sasso
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questo progetto implementa il classico gioco "Carta, Forbice, Sasso" utilizzando React. Supporta due modalità di gioco: Umano vs Computer e Computer vs Computer.
 
-Currently, two official plugins are available:
+## Caratteristiche
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Due modalità di gioco: Umano vs Computer e Computer vs Computer
+- Interfaccia utente semplice e intuitiva
+- Possibilità di giocare più partite consecutive
+- Visualizzazione chiara delle scelte dei giocatori e del risultato
+
+## Tecnologie utilizzate
+
+- React
+- Tailwind CSS per gli stili
+- lucide-react (per le icone)
+
+## Struttura del progetto
+
+Il progetto è composto dai seguenti componenti principali:
+
+- `Game`: Componente principale che gestisce la logica del gioco
+- `GameModeSelector`: Permette all'utente di scegliere la modalità di gioco
+- `PlayerChoices`: Gestisce l'input del giocatore o avvia il gioco automatico
+- `GameResult`: Visualizza le scelte dei giocatori e il risultato della partita
+- `ChoiceIcon`: Renderizza l'icona appropriata per ogni scelta
+
+## Come eseguire il progetto
+
+1. Clona il repository
+2. Installa le dipendenze con `npm install`
+3. Avvia l'applicazione con `npm start`
+4. Apri il browser e vai su `http://localhost:3000`
+
+## Vedi il progetto online
+
+Puoi vedere il progetto in azione online a questo link: [https://learnn-task.netlify.app/](https://learnn-task.netlify.app/).
