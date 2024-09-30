@@ -25,13 +25,6 @@ Il progetto è composto dai seguenti componenti principali:
 - `GameResult`: Visualizza le scelte dei giocatori e il risultato della partita
 - `ChoiceIcon`: Renderizza l'icona appropriata per ogni scelta
 
-## Come eseguire il progetto
-
-1. Clona il repository
-2. Installa le dipendenze con `npm install`
-3. Avvia l'applicazione con `npm start`
-4. Apri il browser e vai su `http://localhost:3000`
-
 ## Vedi il progetto online
 
 Puoi vedere il progetto in azione online a questo link: [https://learnn-task.netlify.app/](https://learnn-task.netlify.app/).
